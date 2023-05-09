@@ -1,0 +1,23 @@
+<%- include('templates/header', {title: 'MOSTRAR COCHES'}) %>
+<body>
+<table>
+    <thead>
+    <tr>
+        <% columnas.forEach(column => { %>
+
+            <th><%= column.name %></th>
+        <% }) %>
+    </tr>
+    </thead>
+    <tbody>
+        <% coches.forEach(coche => {%>
+        <tr>
+            <td><%= coche.id %></td>
+            <td><%= coche.marca %></td>
+            <td><%= coche.fecha %></td>
+        </tr>
+        <% }) %>
+    </tbody>
+</table>
+</body>
+</html>

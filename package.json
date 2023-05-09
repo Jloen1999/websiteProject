@@ -1,0 +1,30 @@
+{
+  "name": "websiteproject",
+  "version": "1.0.0",
+  "description": "For Practices",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jloen1999/websiteProject.git"
+  },
+  "keywords": [
+    "html",
+    "javascript",
+    "css",
+    "fetch"
+  ],
+  "author": "Jose Luis Obiang Ela Nanguan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jloen1999/websiteProject/issues"
+  },
+  "homepage": "https://github.com/Jloen1999/websiteProject#readme",
+  "devDependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1"
+  }
+}
